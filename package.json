@@ -1,0 +1,33 @@
+{
+  "name": "realityserver",
+  "version": "1.0.0",
+  "description": "map editor",
+  "main": "bin/www",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "pm2 start ecosystem.config.js --watch --env dev",
+    "test": "pm2 start ecosystem.config.js --watch --env test",
+    "pro": "pm2 start ecosystem.config.js --watch --env pro",
+    "logs": "pm2 logs",
+    "stop": "pm2 stop ecosystem.config.js"
+  },
+  "author": "derolol",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^6.4.2",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3",
+    "pm2": "^5.2.0",
+    "sequelize": "^6.17.0"
+  }
+}

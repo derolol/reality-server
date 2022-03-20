@@ -1,0 +1,1366 @@
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:7
+const jwtHandler = async (ctx, next) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:9
+    if (ctx.)
+            ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/check`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\jwt.js:20
+      throw { code: 401001, data: { before } message: '该用户无访问权限' };
+                                             ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\reponse.js:22
+			data: err.data ? null,
+			                     ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:7:43)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\reponse.js:22
+			data: err.data ? null,
+			                     ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:7:43)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\reponse.js:22
+			data: err.data ? null,
+			                     ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:7:43)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\reponse.js:22
+			data: err.data ? null,
+			                     ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:7:43)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\reponse.js:22
+			data: err.data ? null,
+			                     ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:7:43)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\reponse.js:22
+			data: err.data ? null,
+			                     ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:7:43)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+E:\MyWeb\Reality\RealityServer\middlewares\reponse.js:22
+			data: err.data ? null,
+			                     ^
+
+SyntaxError: Unexpected token ','
+    at wrapSafe (internal/modules/cjs/loader.js:992:16)
+    at Module._compile (internal/modules/cjs/loader.js:1040:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\app.js:7:43)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: get `/test`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as get] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:5:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
+Error: post `/register`: `middleware` must be a function, not `undefined`
+    at new Layer (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\layer.js:37:13)
+    at Router.register (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:570:17)
+    at Router.<computed> [as post] (E:\MyWeb\Reality\RealityServer\node_modules\koa-router\lib\router.js:200:12)
+    at Object.<anonymous> (E:\MyWeb\Reality\RealityServer\routes\user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1076:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:941:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:782:14)
+    at Module.require (internal/modules/cjs/loader.js:965:19)
+    at Module.Hook._require.Module.require (E:\MyWeb\Reality\RealityServer\node_modules\require-in-the-middle\index.js:80:39)
