@@ -17,13 +17,13 @@ const sequelize = new Sequelize({
   },
 });
 
-// sequelize.sync({
-//   force: false,
-//   alter: true
-// }).then(res => {
-//   console.log("完成数据库同步");
-// }).catch(err => {
-//   console.log("数据库同步失败", err);
-// });
+sequelize.sync({
+  force: false,
+  alter: true
+}).then(res => {
+  console.log("完成数据库同步");
+}).catch(err => {
+  console.log("数据库同步失败", err);
+});
 
 module.exports = sequelize;
