@@ -1,8 +1,11 @@
 const { logger } = require('./logger');
 
+const passFileType = ["image/png", "image/jpeg", "image/jpg", "application/javascript"];
+
 const responseHandler = async (ctx, next) => {
 	await next();
-	if ("image/png" === ctx.type) return;
+	if (passFileType.indexOf(ctx.type) !== -1 || "") return;
+	logger.info(ctx.type);
 	ctx.type = 'json';
 	ctx.body = {
 		code: 200,
@@ -21,7 +24,7 @@ const errorHandler = async (ctx, next) => {
 		ctx.body = {
 			code: err.code || 500,
 			data: err.data ? err.data : null,
-			msg: err.message,
+			msg: err.message
 		}
 		ctx.status = 200 // 保证返回状态是 200, 这样前端不会抛出异常
 		return Promise.resolve();

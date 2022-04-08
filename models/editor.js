@@ -31,12 +31,6 @@ const Map = sequelize.define('Map', {
     defaultValue: '',
     comment: '地图预览图片路径'
   },
-  map_geometry: {
-    type: DataTypes.TEXT,
-    allowNull: false,
-    defaultValue: '',
-    comment: '地图轮廓'
-  },
   map_attach_building: {
     type: DataTypes.TEXT,
     allowNull: false,
@@ -108,7 +102,7 @@ const Building = sequelize.define('Building', {
     comment: '建筑名称'
   },
   building_type: {
-    type: DataTypes.TINYINT,
+    type: DataTypes.BIGINT,
     allowNull: false,
     defaultValue: 0,
     comment: '建筑类型'
@@ -148,6 +142,12 @@ const Building = sequelize.define('Building', {
     allowNull: false,
     defaultValue: '',
     comment: '建筑关联楼层'
+  },
+  building_attach_pipe: {
+    type: DataTypes.TEXT,
+    allowNull: false,
+    defaultValue: '',
+    comment: '建筑关联连通区域'
   },
   building_owner: {
     type: DataTypes.BIGINT,
@@ -243,6 +243,18 @@ const Floor = sequelize.define('Floor', {
     defaultValue: '',
     comment: '建筑关联功能区'
   },
+  floor_attach_poi: {
+    type: DataTypes.TEXT,
+    allowNull: false,
+    defaultValue: '',
+    comment: '建筑关联POI'
+  },
+  floor_attach_pipe: {
+    type: DataTypes.TEXT,
+    allowNull: false,
+    defaultValue: '',
+    comment: '建筑关联连通区域'
+  },
   floor_owner: {
     type: DataTypes.BIGINT,
     allowNull: false,
@@ -312,7 +324,13 @@ const Wall = sequelize.define('Wall', {
     type: DataTypes.TEXT,
     allowNull: false,
     defaultValue: '',
-    comment: '墙体图形'
+    comment: '墙体轮廓'
+  },
+  wall_inside_geometry: {
+    type: DataTypes.TEXT,
+    allowNull: false,
+    defaultValue: '',
+    comment: '内部墙体'
   },
   wall_belong_floor: {
     type: DataTypes.BIGINT,
@@ -346,6 +364,12 @@ const Wall = sequelize.define('Wall', {
 }, {
   tableName: 'wall'
 });
+
+const WALL_CONFIG = {
+  WALL_THICK_1: 0.2,
+  WALL_THICK_2: 0.3,
+  WALL_THICK_3: 0.4
+};
 
 /**
  * 
@@ -699,6 +723,7 @@ module.exports = {
   Building,
   Floor,
   Wall,
+  WALL_CONFIG,
   Area,
   POIResource,
   POI,

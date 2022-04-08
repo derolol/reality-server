@@ -18,7 +18,8 @@ log4js.configure({
       appenders: ['console', 'dateFile'],
       level: 'info'
     }
-  }
+  },
+  disableClustering: true,
 })
 
 const logger = log4js.getLogger('[Default]');

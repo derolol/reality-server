@@ -1,3 +1,5 @@
+const { logger } = require("../middlewares/logger");
+
 /**
  * 校验工具类
  */
@@ -5,8 +7,14 @@ class CheckUtil {
   checkParams(data, checkEmpty, ...params) {
     for (let param of params) {
       let d = data[param];
-      if (!d) return false;
-      if (checkEmpty && d === "") return false;
+      if (typeof (d) === "undefined" || d === null) {
+        logger.info(param, checkEmpty, `'${d}'`);
+        return false;
+      }
+      if (checkEmpty && d === "") {
+        logger.info(param, checkEmpty, `'${d}'`);
+        return false;
+      }
     }
     return true;
   }
