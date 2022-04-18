@@ -8,11 +8,9 @@ class CheckUtil {
     for (let param of params) {
       let d = data[param];
       if (typeof (d) === "undefined" || d === null) {
-        logger.info(param, checkEmpty, `'${d}'`);
         return false;
       }
       if (checkEmpty && d === "") {
-        logger.info(param, checkEmpty, `'${d}'`);
         return false;
       }
     }

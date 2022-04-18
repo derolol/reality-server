@@ -4,6 +4,8 @@ const router = new Route();
 
 router.get('/maps', EditorController.instance.listMap);
 router.get('/maps/:id', EditorController.instance.findMapById);
+router.get('/pois/res', EditorController.instance.listPOIRes);
+
 router.post('/maps', EditorController.instance.createMap);
 router.post('/maps/:id/preview', EditorController.instance.uploadMapPreviewImage);
 router.post('/maps/:id/delete', EditorController.instance.deleteMap);
@@ -13,5 +15,10 @@ router.post('/floors', EditorController.instance.createFloor);
 router.post('/floors/:id/update', EditorController.instance.updateFloor);
 router.post('/floors/:id/delete', EditorController.instance.deleteFloor);
 router.post('/floors/:id/copy', EditorController.instance.copyFloor);
+router.post('/walls/:id/update', EditorController.instance.updateWall);
+router.post('/areas/:id/update', EditorController.instance.updateArea);
+router.post('/pois', EditorController.instance.createPOI);
+router.post('/pois/:id/delete', EditorController.instance.deletePOI);
+router.post('/pois/:id/update', EditorController.instance.updatePOI);
 
 module.exports = router;

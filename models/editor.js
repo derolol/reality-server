@@ -253,7 +253,7 @@ const Floor = sequelize.define('Floor', {
     type: DataTypes.TEXT,
     allowNull: false,
     defaultValue: '',
-    comment: '建筑关联连通区域'
+    comment: '建筑关联'
   },
   floor_owner: {
     type: DataTypes.BIGINT,
@@ -366,9 +366,9 @@ const Wall = sequelize.define('Wall', {
 });
 
 const WALL_CONFIG = {
-  WALL_THICK_1: 0.2,
-  WALL_THICK_2: 0.3,
-  WALL_THICK_3: 0.4
+  WALL_THICK_1: 0.24,
+  WALL_THICK_2: 0.37,
+  WALL_THICK_3: 0.49
 };
 
 /**
@@ -390,9 +390,9 @@ const Area = sequelize.define('Area', {
     comment: '功能区名称'
   },
   area_type: {
-    type: DataTypes.TINYINT,
+    type: DataTypes.BIGINT,
     allowNull: false,
-    defaultValue: 0,
+    defaultValue: "",
     comment: '功能区类型'
   },
   area_belong_floor: {
@@ -490,7 +490,7 @@ const POIResource = sequelize.define('POIResource', {
     comment: 'id'
   },
   poi_res_type: {
-    type: DataTypes.TINYINT,
+    type: DataTypes.BIGINT,
     allowNull: false,
     defaultValue: 0,
     comment: 'POI类型'
