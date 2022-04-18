@@ -5,7 +5,6 @@ const passFileType = ["image/png", "image/jpeg", "image/jpg", "application/javas
 const responseHandler = async (ctx, next) => {
 	await next();
 	if (passFileType.indexOf(ctx.type) !== -1 || "") return;
-	logger.info(ctx.type);
 	ctx.type = 'json';
 	ctx.body = {
 		code: 200,

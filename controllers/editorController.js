@@ -7,11 +7,19 @@ const { logger } = require('../middlewares/logger');
 
 class EditorController {
 
+  /**
+   * 罗列所有地图信息
+   * @param {上下文} ctx 
+   */
   async listMap(ctx) {
     let maps = await EditorService.instance.listMap();
     ctx.body = { maps };
   }
 
+  /**
+   * 获取指定id的地图及其构件信息
+   * @param {上下文} ctx 
+   */
   async findMapById(ctx) {
     const check = checkUtil.checkParams(ctx.params, true, "id");
     if (!check) throw { code: 501001, message: '缺少请求参数' };
@@ -20,6 +28,14 @@ class EditorController {
     ctx.body = { map };
   }
 
+  async listPOIRes(ctx) {
+    ctx.body = await EditorService.instance.listPOIRes();
+  }
+
+  /**
+   * 创建地图
+   * @param {上下文} ctx 
+   */
   async createMap(ctx) {
     const check = checkUtil.checkParams(
       ctx.request.body,
@@ -41,18 +57,47 @@ class EditorController {
   }
 
   /**
+   * 上传地图预览图片
+   * @param {上下文} ctx 
+   */
+  async uploadMapPreviewImage(ctx) {
+    const checkMap = checkUtil.checkParams(ctx.params, true, "id");
+    const checkImage = checkUtil.checkParams(ctx.request.body, true, "image");
+    if (!checkMap || !checkImage) throw { code: 504001, message: '缺少请求参数' };
+    const { id } = ctx.params;
+    const { image } = ctx.request.body;
+    const imagePath = await EditorService.instance.uploadMapPreviewImage(id, image);
+    ctx.body = { path: imagePath };
+  }
+
+  /**
+   * 删除地图
+   * @param {上下文} ctx 
+   */
+  async deleteMap(ctx) {
+    const checkMap = checkUtil.checkParams(ctx.params, true, "id");
+    if (!checkMap) throw { code: 505001, message: '缺少请求参数' };
+    const { id } = ctx.params;
+    const deletedStatus = await EditorService.instance.deleteMap(id);
+    ctx.body = { deletedStatus };
+  }
+
+
+  /**
    * 创建建筑
    * 根据建筑轮廓自动创建
-   * 楼层 {一层}
-   * 墙体
-   * 墙体切割的功能区
+   * 楼层 {一层}、墙体、功能区
    * @param {上下文} ctx 
    */
   async createBuilding(ctx) {
     const check = checkUtil.checkParams(
       ctx.request.body,
       true,
-      "building_name", "building_type", "building_center_lng", "building_center_lat", "building_floor_height", "building_geometry", "building_belong_map", "building_attach_floor", "building_owner", "building_access_level");
+      "building_name", "building_type",
+      "building_center_lng", "building_center_lat", "building_floor_height",
+      "building_geometry", "building_belong_map", "building_attach_floor",
+      "building_owner", "building_access_level",
+      "area_geometry");
     if (!check) throw { code: 503001, message: '缺少请求参数' };
     let params = ctx.request.body;
     // 构建building数据
@@ -69,8 +114,6 @@ class EditorController {
     };
     let geometry = JSON.parse(params.building_geometry);
     // 构建floor数据
-    // let floorGeometry = Object.assign({}, geometry);
-    // floorGeometry.coordinates = JSON.parse(JSON.stringify(floorGeometry.coordinates));
     let floorInfo = {
       floor_geometry: params.building_geometry,
       floor_belong_building: -1,
@@ -82,23 +125,17 @@ class EditorController {
     // 构建wall数据
     let wallInfo = {
       wall_geometry: params.building_geometry,
-      wall_inside_geometry: "",
+      wall_inside_geometry: JSON.stringify({
+        type: "MultiPolygon",
+        coordinates: [],
+      }),
       wall_belong_floor: -1,
       wall_attach_area: -1,
       wall_owner: params.building_owner,
     };
-    // 收缩墙体宽度获取area形状
-    let areaGeometry = {
-      type: "MultiPolygon",
-      coordinates: null,
-    }
-    areaGeometry.coordinates = generateArea(
-      geometry.coordinates,
-      config.WALL_CONFIG.WALL_THICK_2
-    );
     // 构建area数据
     let areaInfo = {
-      area_geometry: JSON.stringify(areaGeometry),
+      area_geometry: params.area_geometry,
       area_belong_floor: -1,
       area_attach_wall: -1,
       area_owner: params.building_owner,
@@ -107,24 +144,6 @@ class EditorController {
     // 数据持久化
     let building = await EditorService.instance.createBuilding(buildingInfo, floorInfo, wallInfo, areaInfo);
     ctx.body = { building };
-  }
-
-  async uploadMapPreviewImage(ctx) {
-    const checkMap = checkUtil.checkParams(ctx.params, true, "id");
-    const checkImage = checkUtil.checkParams(ctx.request.body, true, "image");
-    if (!checkMap || !checkImage) throw { code: 504001, message: '缺少请求参数' };
-    const { id } = ctx.params;
-    const { image } = ctx.request.body;
-    const imagePath = await EditorService.instance.uploadMapPreviewImage(id, image);
-    ctx.body = { path: imagePath };
-  }
-
-  async deleteMap(ctx) {
-    const checkMap = checkUtil.checkParams(ctx.params, true, "id");
-    if (!checkMap) throw { code: 505001, message: '缺少请求参数' };
-    const { id } = ctx.params;
-    const deletedStatus = await EditorService.instance.deleteMap(id);
-    ctx.body = { deletedStatus };
   }
 
   async updateBuilding(ctx) {
@@ -141,24 +160,18 @@ class EditorController {
     if (!checkBody) throw { code: 507002, message: '缺少请求参数[info]' };
     const { info } = ctx.request.body;
     let wallInfo = {
+      wall_thick: 2,
       wall_geometry: info.floor_geometry,
-      wall_inside_geometry: "",
+      wall_inside_geometry: JSON.stringify({
+        type: "MultiPolygon",
+        coordinates: [],
+      }),
       wall_belong_floor: -1,
       wall_attach_area: -1,
       wall_owner: info.floor_owner,
     };
-    let geometry = jsonUtil.jsonToObject(info.floor_geometry);
-    // 收缩墙体宽度获取area形状
-    let areaGeometry = {
-      type: "MultiPolygon",
-      coordinates: null,
-    }
-    areaGeometry.coordinates = generateArea(
-      geometry.coordinates,
-      config.WALL_CONFIG.WALL_THICK_2
-    );
     let areaInfo = {
-      area_geometry: JSON.stringify(areaGeometry),
+      area_geometry: info.area_geometry,
       area_belong_floor: -1,
       area_attach_wall: -1,
       area_owner: info.floor_owner,
@@ -175,32 +188,38 @@ class EditorController {
     if (!checkBody) throw { code: 507002, message: '缺少请求参数[floor_info,floor_geometryChange]' };
     const floorId = ctx.params.id;
     const { info, geometryChange } = ctx.request.body;
+    // 更新楼层信息
     let updatedFloor = await EditorService.instance.updateFloor(floorId, info);
-    if (geometryChange) {
-      let wallId = updatedFloor.floor_attach_wall;
-      let wallInfo = {
-        wall_geometry: info.floor_geometry,
-      };
-      let updatedWall = await EditorService.instance.updateWall(wallId, wallInfo);
-      let geometry = jsonUtil.jsonToObject(updatedFloor.floor_geometry);
-      let areaIdList = jsonUtil.jsonToObject(updatedFloor.floor_attach_area);
-      // 收缩墙体宽度获取area形状
-      let areaGeometry = {
-        type: "MultiPolygon",
-        coordinates: null,
-      }
-      areaGeometry.coordinates = generateArea(
-        geometry.coordinates,
-        config.WALL_CONFIG[`WALL_THICK_${+updatedWall.wall_thick}`]
-      );
-      let areaInfo = {
-        area_geometry: JSON.stringify(areaGeometry),
-      };
-      let updatedArea = await EditorService.instance.updateArea(areaIdList[0], areaInfo);
-      ctx.body = { geometryChange: true, floor: updatedFloor, wall: updatedWall, area: updatedArea };
+    // 若楼层结构改变则需要更新墙体、功能区结构
+    if (!geometryChange) {
+      ctx.body = { geometryChange: false, floor: updatedFloor };
       return;
     }
-    ctx.body = { geometryChange: false, floor: updatedFloor };
+    let areaList = {};
+    // 更新墙体信息
+    let wallId = updatedFloor.floor_attach_wall;
+    let wallInfo = {
+      wall_geometry: info.floor_geometry
+    };
+    let updatedWall = await EditorService.instance.updateWall(wallId, wallInfo);
+    // 更新功能区信息
+    let areaGeometries = jsonUtil.jsonToObject(info.areaGeometries);
+    // 删除和新增操作
+    if (areaGeometries.hasOwnProperty("deleteAreaIdList")
+      && areaGeometries.hasOwnProperty("newAreaList")) {
+      // 新增功能区
+      let newAreaList = areaGeometries.newAreaList.map(geometry => ({
+        area_geometry: JSON.stringify(geometry),
+        area_belong_floor: updatedFloor.floor_id,
+        area_attach_wall: updatedWall.wall_id,
+        area_owner: updatedWall.wall_owner,
+        area_access_level: 1
+      }));
+      areaList.newAreaList = await EditorService.instance.createOrUpdateAreaList(updatedFloor.floor_id, newAreaList);
+      // 删除功能区
+      await EditorService.instance.deleteAreaList(updatedFloor.floor_id, areaGeometries.deleteAreaIdList);
+    }
+    ctx.body = { geometryChange: true, floor: updatedFloor, wall: updatedWall, area: areaList };
   }
 
   async deleteFloor(ctx) {
@@ -222,45 +241,97 @@ class EditorController {
     ctx.body = { copied };
   }
 
-}
-
-function generateArea(coordinates, wallThick) {
-  if (mathUtil.countArrayLevel(coordinates) === 3) {
-    return [handleAreaShape(coordinates, wallThick)];
-  }
-  let areaShape = [];
-  for (let i = 0, len = coordinates.length; i < len; i++) {
-    areaShape.push(handleAreaShape(coordinates[i], wallThick));
-  }
-  return areaShape;
-}
-
-function handleAreaShape(points, wallThick) {
-  let areaShape = [];
-  for (let i = 0; i < points.length; i++) {
-    let newShape = null;
-    let shape = points[i];
-    // 判断点集是否为顺时针
-    if (mathUtil.judgeClockwise(shape)) {
-      shape.reverse();
-    }
-    // 外墙收缩
-    if (i === 0) {
-      newShape = mathUtil.createEqualDistPoint(
-        shape,
-        wallThick  // L > 0 收缩墙体宽度
+  async updateWall(ctx) {
+    const checkParams = checkUtil.checkParams(ctx.params, true, "id");
+    if (!checkParams) throw { code: 510001, message: '缺少请求参数[id]' };
+    const checkBody = checkUtil.checkParams(ctx.request.body, true, "floor", "info", "areas");
+    if (!checkBody) throw { code: 510002, message: '缺少请求参数[floor,info,areas]' };
+    let { id } = ctx.params;
+    let { floor, info, areas } = ctx.request.body;
+    // 更新墙体
+    const updatedWall = await EditorService.instance.updateWall(id, info);
+    // 获取功能区，根据传递参数判断功能区操作类型
+    let areaGeometryList = jsonUtil.jsonToObject(areas);
+    let areaList = {};
+    // 更新操作
+    if (areaGeometryList.hasOwnProperty("updateAreaList")) {
+      areaList.updateAreaList = await EditorService.instance.createOrUpdateAreaList(
+        floor,
+        areaGeometryList.updateAreaList.map(area => (
+          {
+            area_id: area.area_id,
+            area_geometry: JSON.stringify(area.area_geometry)
+          }
+        ))
       );
-      areaShape.push(newShape);
-      continue;
     }
-    // 内墙扩张
-    newShape = mathUtil.createEqualDistPoint(
-      shape,
-      - wallThick
-    );
-    areaShape.push(newShape);
+    // 删除和新增操作
+    if (areaGeometryList.hasOwnProperty("deleteAreaIdList")
+      && areaGeometryList.hasOwnProperty("newAreaList")) {
+      // 新增功能区
+      let newAreaList = areaGeometryList.newAreaList.map(geometry => ({
+        area_geometry: JSON.stringify(geometry),
+        area_belong_floor: floor,
+        area_attach_wall: id,
+        area_owner: updatedWall.wall_owner,
+        area_access_level: 1
+      }));
+      areaList.newAreaList = await EditorService.instance.createOrUpdateAreaList(floor, newAreaList);
+      // 删除功能区
+      await EditorService.instance.deleteAreaList(floor, areaGeometryList.deleteAreaIdList);
+    }
+    ctx.body = { updatedWall, areaList };
   }
-  return areaShape;
+
+  async updateArea(ctx) {
+    const checkParams = checkUtil.checkParams(ctx.params, true, "id");
+    if (!checkParams) throw { code: 511001, message: '缺少请求参数[id]' };
+    const checkBody = checkUtil.checkParams(ctx.request.body, true, "info");
+    if (!checkBody) throw { code: 511002, message: '缺少请求参数[info]' };
+    let { id } = ctx.params;
+    let { info } = ctx.request.body;
+    let updated = await EditorService.instance.updateArea(id, info);
+    ctx.body = { area: updated };
+  }
+
+  async createPOI(ctx) {
+    const checkBody = checkUtil.checkParams(ctx.request.body, true, "floor", "poi_name", "poi_res", "poi_geometry", "poi_height", "poi_belong_area");
+    if (!checkBody) throw { code: 512001, message: '缺少请求参数[floor、poi_name、poi_res、poi_geometry、poi_height、poi_belong_area]' };
+    let { floor, poi_name, poi_res, poi_geometry, poi_height, poi_belong_area } = ctx.request.body;
+    let info = {
+      poi_name,
+      poi_res,
+      poi_geometry,
+      poi_height,
+      poi_belong_area,
+      poi_belong_floor: floor
+    }
+    let created = await EditorService.instance.createPOI(floor, info);
+    ctx.body = { poi: created };
+  }
+
+  async deletePOI(ctx) {
+    const checkParams = checkUtil.checkParams(ctx.params, true, "id");
+    if (!checkParams) throw { code: 513001, message: '缺少请求参数[id]' };
+    const checkBody = checkUtil.checkParams(ctx.request.body, true, "floor");
+    if (!checkBody) throw { code: 513002, message: '缺少请求参数[floor]' };
+    let { id } = ctx.params;
+    let { floor } = ctx.request.body;
+    let deleted = await EditorService.instance.deletePOI(floor, id);
+    ctx.body = { poi: deleted };
+  }
+
+  async updatePOI(ctx) {
+    const checkParams = checkUtil.checkParams(ctx.params, true, "id");
+    if (!checkParams) throw { code: 514001, message: '缺少请求参数[id]' };
+    const checkBody = checkUtil.checkParams(ctx.request.body, true, "info");
+    if (!checkBody) throw { code: 514002, message: '缺少请求参数[info]' };
+    let { id } = ctx.params;
+    let { info } = ctx.request.body;
+    let updated = await EditorService.instance.updatePOI(id, info);
+    ctx.body = { poi: updated };
+  }
+
 }
 
 const instance = new EditorController();

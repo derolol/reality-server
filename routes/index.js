@@ -5,7 +5,7 @@ const home = require('./home');
 const user = require('./user');
 const editor = require('./editor');
 
-routers.prefix('/api');
+routers.prefix('/reality/api');
 
 routers.use('/', home.routes(), home.allowedMethods());
 routers.use('/user', user.routes(), user.allowedMethods());
