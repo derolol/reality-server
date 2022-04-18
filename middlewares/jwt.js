@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken')
 const config = require('../config');
 const checkUtil = require('../utils/checkUtil');
 
-const passlist = ["api/user/key", "api/user/login", "static"];
+const passlist = ["api/user/key", "api/user/register", "api/user/login", "static"];
 
 function checkPassList(url) {
   for (let pass of passlist) {
