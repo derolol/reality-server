@@ -10,9 +10,9 @@ class EditorService {
 	 * 罗列所有地图信息
 	 * @returns 地图列表
 	 */
-	async listMap() {
+	async listMap(userId) {
 		const maps = await Map.findAll({
-			where: { deleted_at: null }, raw: true
+			where: { deleted_at: null, map_owner: userId }, raw: true
 		});
 		return maps;
 	}
@@ -33,7 +33,7 @@ class EditorService {
 	 * @param {地图id} mapId 
 	 * @returns 地图信息
 	 */
-	async findMapById(mapId) {
+	async findMapById(mapId, userId) {
 		let mapObject = null;
 		let buildingObjects = [];
 		let floorObjects = [];
@@ -41,7 +41,7 @@ class EditorService {
 		let areaObjects = [];
 		let poiObjects = [];
 		// 获取map信息
-		const mapInfo = await Map.findByPk(mapId, { where: { deleted_at: null }, raw: true });
+		const mapInfo = await Map.findByPk(mapId, { where: { deleted_at: null, map_owner: userId }, raw: true });
 		mapObject = this.generateMap(mapInfo);
 		// 获取building信息
 		let buildings = jsonUtil.jsonToObject(mapInfo.map_attach_building);

@@ -12,7 +12,7 @@ class EditorController {
    * @param {上下文} ctx 
    */
   async listMap(ctx) {
-    let maps = await EditorService.instance.listMap();
+    let maps = await EditorService.instance.listMap(ctx.userInfo.user_id);
     ctx.body = { maps };
   }
 
@@ -24,7 +24,7 @@ class EditorController {
     const check = checkUtil.checkParams(ctx.params, true, "id");
     if (!check) throw { code: 501001, message: '缺少请求参数' };
     const mapId = ctx.params.id;
-    let map = await EditorService.instance.findMapById(mapId);
+    let map = await EditorService.instance.findMapById(mapId, ctx.userInfo.user_id);
     ctx.body = { map };
   }
 

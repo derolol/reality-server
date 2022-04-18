@@ -25,7 +25,7 @@ class UserController {
 	}
 
 	static decryptText(text) {
-		let filePath = path.resolve(__dirname, "..", "lib/privateKey.pem");
+		let filePath = path.resolve(__dirname, "..", "lib/privatekey.pem");
 		const privateKey = fs.readFileSync(filePath);
 		const decodeData = crypto.privateDecrypt(
 			{ key: privateKey, padding: crypto.constants.RSA_PKCS1_PADDING },
