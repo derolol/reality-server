@@ -1,9 +1,6 @@
 const EditorService = require('../services/editorService');
 const checkUtil = require('../utils/checkUtil');
 const jsonUtil = require('../utils/jsonUtil');
-const mathUtil = require('../utils/mathUtil');
-const config = require('../models/editor');
-const { logger } = require('../middlewares/logger');
 
 class EditorController {
 
@@ -330,6 +327,45 @@ class EditorController {
     let { info } = ctx.request.body;
     let updated = await EditorService.instance.updatePOI(id, info);
     ctx.body = { poi: updated };
+  }
+
+  /**
+   * 更新连通区域
+   * @param {上下文} ctx 
+   */
+  async updatePipe(ctx) {
+    const checkParams = checkUtil.checkParams(ctx.params, true, "id");
+    if (!checkParams) throw { code: 515001, message: '缺少请求参数[id]' };
+    const checkBody = checkUtil.checkParams(ctx.request.body, true, "info");
+    if (!checkBody) throw { code: 515002, message: '缺少请求参数[info]' };
+    let { id } = ctx.params;
+    let { info } = ctx.request.body;
+    let updated = await EditorService.instance.updatePipe(id, info);
+    ctx.body = { pipe: updated };
+  }
+
+  /**
+   * 创建连通区域
+   * @param {上下文} ctx 
+   */
+  async createPipe(ctx) {
+    const checkBody = checkUtil.checkParams(ctx.request.body, true, "info");
+    if (!checkBody) throw { code: 516001, message: '缺少请求参数[info]' };
+    let { info } = ctx.request.body;
+    let created = await EditorService.instance.createPipe(info);
+    ctx.body = { pipe: created };
+  }
+
+  /**
+   * 删除连通区域
+   * @param {上下文} ctx 
+   */
+  async deletePipe(ctx) {
+    const checkParams = checkUtil.checkParams(ctx.params, true, "id");
+    if (!checkParams) throw { code: 517001, message: '缺少请求参数[id]' };
+    let { id } = ctx.params;
+    let deleted = await EditorService.instance.deletePipe(id);
+    ctx.body = { pipe: deleted };
   }
 
 }

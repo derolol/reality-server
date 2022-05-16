@@ -13,7 +13,7 @@ module.exports = {
     // port: 3306
     database: 'reality',
     username: 'root',
-    password: 'root@123456',
+    password: '000624',
     host: '127.0.0.1',
     port: 3306
   }

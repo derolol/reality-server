@@ -34,32 +34,43 @@ class EditorService {
 	 * @returns 地图信息
 	 */
 	async findMapById(mapId, userId) {
+
 		let mapObject = null;
 		let buildingObjects = [];
 		let floorObjects = [];
 		let wallObjects = [];
 		let areaObjects = [];
 		let poiObjects = [];
+		let pipeObjects = [];
+
 		// 获取map信息
 		const mapInfo = await Map.findByPk(mapId, { where: { deleted_at: null, map_owner: userId }, raw: true });
 		mapObject = this.generateMap(mapInfo);
+
 		// 获取building信息
 		let buildings = jsonUtil.jsonToObject(mapInfo.map_attach_building);
 		const buildingInfo = await Building.findAll({ where: { building_id: { [Op.in]: buildings }, deleted_at: null }, raw: true });
+
 		// 遍历所有building
 		for (let b of buildingInfo) {
+
 			// 获取floor信息
 			let floors = jsonUtil.jsonToObject(b.building_attach_floor);
 			const floorInfo = await Floor.findAll({ where: { floor_id: { [Op.in]: floors }, deleted_at: null }, raw: true });
 			let floorLevelMap = {};
+			let floorIdLevelMap = {};
+
 			// 遍历所有floor
 			for (let f of floorInfo) {
 				floorLevelMap[f.floor_level] = f.floor_id;
+				floorIdLevelMap[f.floor_id] = f.floor_level;
 				floorObjects.push(this.generateFloor(f, b.building_floor_height));
+
 				// 获取wall信息
 				let wall = f.floor_attach_wall;
 				const wallInfo = await Wall.findByPk(wall, { where: { deleted_at: null }, raw: true });
 				wallObjects.push(this.generateWall(wallInfo, b.building_floor_height, f.floor_level));
+
 				// 获取area信息
 				let areas = jsonUtil.jsonToObject(f.floor_attach_area);
 				const areaInfo = await Area.findAll({ where: { area_id: { [Op.in]: areas }, deleted_at: null }, raw: true });
@@ -67,6 +78,7 @@ class EditorService {
 				for (let a of areaInfo) {
 					areaObjects.push(this.generateArea(a));
 				}
+
 				// 获取POI信息
 				let pois = jsonUtil.jsonToObject(f.floor_attach_poi);
 				const poiInfo = await POI.findAll({ where: { poi_id: { [Op.in]: pois }, deleted_at: null }, raw: true });
@@ -74,14 +86,43 @@ class EditorService {
 				for (let p of poiInfo) {
 					poiObjects.push(this.generatePOI(p));
 				}
+
+				// 获取水平连通区域信息
+				let pipes = jsonUtil.jsonToObject(f.floor_attach_pipe);
+				logger.info(pipes);
+				const pipeInfo = await Pipe.findAll({ where: { pipe_id: { [Op.in]: pipes }, deleted_at: null }, raw: true });
+				// 遍历水平连通区域
+				for (let p of pipeInfo) {
+					pipeObjects.push(this.generatePipe(p));
+				}
 			}
+
+			// 获取所有楼层层号组成的列表并排序
 			let floorLevelList = Object.keys(floorLevelMap).map(v => +v);
 			floorLevelList.sort((a, b) => b - a);
+
+			// 获取垂直连通区域信息
+			let pipes = jsonUtil.jsonToObject(b.building_attach_pipe);
+			const pipeInfo = await Pipe.findAll({ where: { pipe_id: { [Op.in]: pipes }, deleted_at: null }, raw: true });
+			// 遍历垂直连通区域
+			for (let p of pipeInfo) {
+				let floors = jsonUtil.jsonToObject(p.pipe_belong_floor);
+				pipeObjects.push(
+					this.generatePipe(p)
+				);
+			}
+
+			// 构建建筑对象
 			buildingObjects.push(this.generateBuilding(b, floorLevelList[0], floorLevelList[floorLevelList.length - 1], floorLevelList, floorLevelMap));
 		}
-		return { mapObject, buildingObjects, floorObjects, wallObjects, areaObjects, poiObjects };
+
+		return { mapObject, buildingObjects, floorObjects, wallObjects, areaObjects, poiObjects, pipeObjects };
 	}
 
+	/**
+	 * 加载所有POI资源
+	 * @returns POI资源列表
+	 */
 	async listPOIRes() {
 		const row = 6;
 		let res = {};
@@ -518,10 +559,10 @@ class EditorService {
 		return {
 			floor: this.generateFloor(targetFloor, building.building_floor_height),
 			wall: this.generateWall(targetWall, building.building_floor_height, targetFloor.floor_level),
-			area: targetAreaList.map(v => this.generateArea(v)),
-			component: targetComponentList.map(v => this.generateComponent(v)),
-			poi: targetPOIList.map(v => this.generatePOI(v)),
-			pipe: targetPipeList.map(v => this.generatePipe(v)),
+			areas: targetAreaList.map(v => this.generateArea(v)),
+			components: targetComponentList.map(v => this.generateComponent(v)),
+			pois: targetPOIList.map(v => this.generatePOI(v)),
+			pipes: targetPipeList.map(v => this.generatePipe(v)),
 		}
 	}
 
@@ -680,6 +721,69 @@ class EditorService {
 		return await poi.set(info).save({ raw: true });
 	}
 
+	async updatePipe(pipeId, info) {
+		let pipe = await Pipe.findByPk(pipeId);
+		const updated = await pipe.set(info).save({ raw: true });
+		return updated;
+	}
+
+	async createPipe(info) {
+		let pipe = await Pipe.create(info, { raw: true });
+		switch (+pipe.pipe_type) {
+			// 水平连通区域与楼层关联
+			case 0: {
+				let floorId = info.pipe_belong_floor;
+				let floor = await Floor.findByPk(floorId);
+				// 获取楼层包含的连通区域列表
+				let pipes = jsonUtil.jsonToObject(floor.floor_attach_pipe);
+				pipes.push(pipe.pipe_id)
+				await Floor.update({ floor_attach_pipe: JSON.stringify(pipes) }, { where: { floor_id: floorId } });
+				break;
+			}
+			// 垂直连通区域与建筑关联
+			case 1: {
+				let buildingId = info.pipe_belong_building;
+				let building = await Building.findByPk(buildingId);
+				// 获取建筑包含的连通区域列表
+				let pipes = jsonUtil.jsonToObject(building.building_attach_pipe);
+				pipes.push(pipe.pipe_id)
+				await Building.update({ building_attach_pipe: JSON.stringify(pipes) }, { where: { building_id: buildingId } });
+				break;
+			}
+		}
+		return this.generatePipe(pipe);
+	}
+
+	async deletePipe(pipeId) {
+		let pipe = await Pipe.findByPk(pipeId);
+		await pipe.set({ deleted_at: Date.now() }, { where: { pipe_id: pipeId } }).save();
+		switch (+pipe.pipe_type) {
+			// 水平连通区域与楼层关联
+			case 0: {
+				let floorId = pipe.pipe_belong_floor;
+				let floor = await Floor.findByPk(floorId);
+				// 获取楼层包含的连通区域列表
+				let pipes = jsonUtil.jsonToObject(floor.floor_attach_pipe);
+				let index = pipes.findIndex(p => p == pipeId);
+				pipes.splice(index, 1);
+				await Floor.update({ floor_attach_pipe: JSON.stringify(pipes) }, { where: { floor_id: floorId } });
+				break;
+			}
+			// 垂直连通区域与建筑关联
+			case 1: {
+				let buildingId = pipe.pipe_belong_building;
+				let building = await Building.findByPk(buildingId);
+				// 获取建筑包含的连通区域列表
+				let pipes = jsonUtil.jsonToObject(building.building_attach_pipe);
+				let index = pipes.findIndex(p => p == pipeId);
+				pipes.splice(index, 1);
+				await Building.update({ building_attach_pipe: JSON.stringify(pipes) }, { where: { building_id: buildingId } });
+				break;
+			}
+		}
+		return this.generatePipe(pipe);
+	}
+
 	generateMap(mapInfo) {
 		return {
 			"type": "Feature",
@@ -823,16 +927,22 @@ class EditorService {
 	}
 
 	generatePipe(pipeInfo) {
+		let pipe_belong_floor = -1;
+		if (+pipeInfo.pipe_type === 1) {
+			pipe_belong_floor = jsonUtil.jsonToObject(pipeInfo.pipe_belong_floor);
+		}
+		else {
+			pipe_belong_floor = +pipeInfo.pipe_belong_floor;
+		}
 		return {
 			"type": "Feature",
 			"properties": {
 				"model": "pipe",
 				"pipe_id": pipeInfo.pipe_id,
 				"pipe_name": pipeInfo.pipe_name,
-				"pipe_type": pipeInfo.pipe_type,
-				"pipe_height": pipeInfo.pipe_height,
-				"pipe_belong_floor": pipeInfo.pipe_belong_floor,
-				"pipe_belong_wall": pipeInfo.pipe_belong_wall,
+				"pipe_type": +pipeInfo.pipe_type,
+				"pipe_belong_floor": pipe_belong_floor,
+				"pipe_belong_building": pipeInfo.pipe_belong_building,
 			},
 			"geometry": jsonUtil.jsonToObject(pipeInfo.pipe_geometry)
 		}
