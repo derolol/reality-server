@@ -20,5 +20,8 @@ router.post('/areas/:id/update', EditorController.instance.updateArea);
 router.post('/pois', EditorController.instance.createPOI);
 router.post('/pois/:id/delete', EditorController.instance.deletePOI);
 router.post('/pois/:id/update', EditorController.instance.updatePOI);
+router.post('/pipes/:id/update', EditorController.instance.updatePipe);
+router.post('/pipes', EditorController.instance.createPipe);
+router.post('/pipes/:id/delete', EditorController.instance.deletePipe);
 
 module.exports = router;

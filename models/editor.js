@@ -392,7 +392,7 @@ const Area = sequelize.define('Area', {
   area_type: {
     type: DataTypes.BIGINT,
     allowNull: false,
-    defaultValue: "",
+    defaultValue: 0,
     comment: '功能区类型'
   },
   area_belong_floor: {
@@ -610,17 +610,10 @@ const Pipe = sequelize.define('Pipe', {
     comment: '连通区域名称'
   },
   pipe_type: {
-    type: DataTypes.ENUM,
-    values: ['0', '1'],
-    allowNull: false,
-    defaultValue: '0',
-    comment: '连通区域类型(功能区0/楼层1)'
-  },
-  pipe_height: {
-    type: DataTypes.DECIMAL(4, 2),
+    type: DataTypes.TINYINT,
     allowNull: false,
     defaultValue: 0,
-    comment: '连通区域距离地面高度(0)'
+    comment: '连通区域类型(水平0/竖直1)'
   },
   pipe_geometry: {
     type: DataTypes.TEXT,
@@ -632,13 +625,13 @@ const Pipe = sequelize.define('Pipe', {
     type: DataTypes.TEXT,
     allowNull: false,
     defaultValue: '',
-    comment: '连通区域所属楼层(1)'
+    comment: '连通区域所属楼层(0/1)'
   },
-  pipe_belong_wall: {
+  pipe_belong_building: {
     type: DataTypes.BIGINT,
     allowNull: false,
     defaultValue: -1,
-    comment: '连通区域所属墙体(0)'
+    comment: '连通区域所属墙体(1)'
   },
   deleted_at: {
     type: DataTypes.DATE,
